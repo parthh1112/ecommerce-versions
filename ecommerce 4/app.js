@@ -25,6 +25,7 @@ const sessionConfig = {
     resave: false,
     saveUninitialized: true,
 }
+
 app.use(session(sessionConfig))
 app.use(flash())
 
