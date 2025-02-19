@@ -8,6 +8,7 @@ const session = require('express-session')
 const flash = require('connect-flash')
 
 
+
 mongoose.connect('mongodb://localhost:27017/shopping-app')
     .then(() => console.log('DB Connected'))
     .catch((err) => console.log(err));
